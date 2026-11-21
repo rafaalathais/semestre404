@@ -22,7 +22,33 @@ exception/ - tratamento de erros
 test/ - testes unitários
 
 ## Autores
+Este projeto foi desenvolvido por:
 
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/biancassza">
+        <img src="https://github.com/biancassza.png" width="100px;" style="border-radius: 50%;"/><br>
+        <sub><b>Bianca Karolinne</b></sub>
+      </a><br>
+      <sub>Desenvolvedor</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/juliocesar-candido">
+        <img src="https://github.com/juliocesar-candido.png" width="100px;" style="border-radius: 50%;"/><br>
+        <sub><b>Júlio Cândido</b></sub>
+      </a><br>
+      <sub>Desenvolvedor</sub>
+    </td>
+    <td align="center">
+      <a href="https://github.com/rafaalathais">
+        <img src="https://github.com/rafaalathais.png" width="100px;" style="border-radius: 50%;"/><br>
+        <sub><b>Rafaela Thaís</b></sub>
+      </a><br>
+      <sub>Desenvolvedor</sub>
+    </td>
+  </tr>
+</table>
 
 ## Como compilar e rodar
 ./mvnw.cmd spring-boot:run -Dspring-boot.ru
