@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://c6ii85p3fpi6e"]
+
+[ext_resource type="Texture2D" uid="uid://b8gbyodq7qc8k" path="res://assets/personagens/personagem_1/personagem.1.png" id="1_roqey"]
+[ext_resource type="Script" uid="uid://bjtb1xwkoaraw" path="res://scripts/personagem.gd" id="2_5h1iu"]
+[ext_resource type="Texture2D" uid="uid://c717p2irtyiup" path="res://assets/personagens/personagem_1/personagem.1.brava.png" id="3_c6r7t"]
+[ext_resource type="Texture2D" uid="uid://p4g8qs6war3b" path="res://assets/personagens/personagem_1/personagem.1.assustada.png" id="4_d05dr"]
+[ext_resource type="Texture2D" uid="uid://cs01t463f74ya" path="res://assets/personagens/personagem_1/persornagem.1.triste.png" id="5_foddy"]
+
+[node name="personagem1" type="TextureRect" unique_id=1235769947]
+offset_left = 2.0
+offset_top = 188.0
+offset_right = 511.0
+offset_bottom = 649.0
+texture = ExtResource("1_roqey")
+expand_mode = 1
+script = ExtResource("2_5h1iu")
+expressoes = Dictionary[String, Texture2D]({
+"assustado": ExtResource("4_d05dr"),
+"bravo": ExtResource("3_c6r7t"),
+"normal": ExtResource("1_roqey"),
+"triste": ExtResource("5_foddy")
+})

@@ -33,7 +33,7 @@ build/
 .vscode/
 
 # Configurações locais e credenciais sensíveis
-src/main/resources/application-local.properties
+backend-spring/src/main/resources/application-local.properties
 
 ### Godot ###
 **/export.cfg

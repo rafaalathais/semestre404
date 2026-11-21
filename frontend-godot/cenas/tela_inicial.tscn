@@ -1,0 +1,13 @@
+[gd_scene format=3 uid="uid://de4pox4ychqft"]
+
+[node name="tela_inicial" type="Node2D" unique_id=768023012]
+
+[node name="Label" type="Label" parent="." unique_id=2065932213]
+custom_minimum_size = Vector2(300, 100)
+offset_left = 420.0
+offset_top = 188.0
+offset_right = 720.0
+offset_bottom = 288.0
+text = "SEMESTRE 404"
+horizontal_alignment = 1
+vertical_alignment = 1

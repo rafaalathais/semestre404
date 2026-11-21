@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://ca8i0htyg38wm"]
+
+[ext_resource type="PackedScene" uid="uid://c6ii85p3fpi6e" path="res://cenas/personagem1.tscn" id="1_3tcx0"]
+[ext_resource type="Texture2D" uid="uid://doso831r4c0v3" path="res://assets/personagens/personagem2/personagem2.padrao.png" id="2_ul1sy"]
+[ext_resource type="Texture2D" uid="uid://ddo1vqig1m05b" path="res://assets/personagens/personagem2/personagem2.assustada.png" id="3_er576"]
+[ext_resource type="Texture2D" uid="uid://2aojipdg8sp1" path="res://assets/personagens/personagem2/personagem2.brava.png" id="4_rrx2n"]
+[ext_resource type="Texture2D" uid="uid://cjj2dlhfhkvsk" path="res://assets/personagens/personagem2/personagem2.triste.png" id="5_41s3p"]
+
+[node name="personagem2" unique_id=1235769947 instance=ExtResource("1_3tcx0")]
+texture = ExtResource("2_ul1sy")
+expressoes = Dictionary[String, Texture2D]({
+"assustado": ExtResource("3_er576"),
+"bravo": ExtResource("4_rrx2n"),
+"normal": ExtResource("2_ul1sy"),
+"triste": ExtResource("5_41s3p")
+})

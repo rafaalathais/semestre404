@@ -22,3 +22,8 @@ exception/ - tratamento de erros
 test/ - testes unitários
 
 ## Autores
+
+
+## Como compilar e rodar
+./mvnw.cmd spring-boot:run -Dspring-boot.ru
+n.profiles=local
