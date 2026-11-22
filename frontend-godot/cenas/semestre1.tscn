@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://ba2imxv0vg1kj"]
+
+[ext_resource type="Script" uid="uid://cb6bsypjigsya" path="res://scripts/semestre1.gd" id="1_ivfso"]
+[ext_resource type="Texture2D" uid="uid://hoftiwoofg2j" path="res://assets/cenarios/IMG-20261119-WA0047.jpg" id="2_2cqq7"]
+[ext_resource type="PackedScene" uid="uid://ca8i0htyg38wm" path="res://cenas/personagem_2.tscn" id="3_oofb5"]
+[ext_resource type="PackedScene" uid="uid://xyjgcw8gjrtt" path="res://cenas/hud.tscn" id="4_slv8d"]
+
+[node name="semestre1" type="Node2D" unique_id=2105352581]
+script = ExtResource("1_ivfso")
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1130991739]
+position = Vector2(638, 359)
+scale = Vector2(0.7959801, 0.7942383)
+texture = ExtResource("2_2cqq7")
+
+[node name="personagem2" parent="." unique_id=1235769947 instance=ExtResource("3_oofb5")]
+z_as_relative = false
+offset_left = 407.0
+offset_top = 119.0
+offset_right = 692.7025
+offset_bottom = 442.4286
+scale = Vector2(1.6696517, 1.296349)
+
+[node name="HUD" parent="." unique_id=159451058 instance=ExtResource("4_slv8d")]
+z_index = 2
+offset_left = 31.0
+offset_top = 16.0
+offset_right = 31.0
+offset_bottom = 16.0

@@ -11,8 +11,20 @@ config_version=5
 [application]
 
 config/name="semestre404"
+run/main_scene="uid://de4pox4ychqft"
 config/features=PackedStringArray("4.6", "GL Compatibility")
 config/icon="res://icon.svg"
+
+[autoload]
+
+GameManager="*uid://dtcqog3t4k07d"
+Menu="*uid://2y6xqib7hn53"
+
+[display]
+
+window/size/viewport_width=1280
+window/size/viewport_height=720
+window/stretch/mode="canvas_items"
 
 [physics]
 

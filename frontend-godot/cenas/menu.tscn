@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://2y6xqib7hn53"]
+
+[ext_resource type="Script" uid="uid://dkpwi4bvo86g7" path="res://scripts/menu.gd" id="1_64url"]
+[ext_resource type="Texture2D" uid="uid://pox2f4x5ekkw" path="res://icon.svg" id="2_nbnbt"]
+
+[node name="menu" type="CanvasLayer" unique_id=1227122702]
+script = ExtResource("1_64url")
+
+[node name="painelMenu" type="ColorRect" parent="." unique_id=591077928]
+offset_left = 260.0
+offset_top = 117.0
+offset_right = 1023.0
+offset_bottom = 615.0
+color = Color(1, 0.79607844, 1, 0.6509804)
+
+[node name="botaoInicio" type="Button" parent="painelMenu" unique_id=265066795]
+layout_mode = 0
+offset_left = 208.0
+offset_top = 212.0
+offset_right = 543.0
+offset_bottom = 296.0
+text = "Inicio"
+
+[node name="botaoSair" type="Button" parent="painelMenu" unique_id=528679936]
+layout_mode = 0
+offset_left = 611.0
+offset_top = 443.0
+offset_right = 748.0
+offset_bottom = 484.0
+text = "Sair "
+
+[node name="botaoContinuar" type="Button" parent="painelMenu" unique_id=1072365594]
+layout_mode = 0
+offset_left = 207.0
+offset_top = 117.0
+offset_right = 542.0
+offset_bottom = 201.0
+text = "Continuar"
+
+[node name="botaoFechar" type="Button" parent="painelMenu" unique_id=115808452]
+layout_mode = 0
+offset_left = 211.0
+offset_top = 308.0
+offset_right = 546.0
+offset_bottom = 392.0
+text = "Fechar"
+
+[node name="botaoMenu" type="TextureButton" parent="." unique_id=561495845]
+offset_left = 1176.0
+offset_top = 22.0
+offset_right = 1304.0
+offset_bottom = 150.0
+scale = Vector2(0.6551735, 0.5520581)
+texture_normal = ExtResource("2_nbnbt")
+
+[connection signal="pressed" from="painelMenu/botaoSair" to="." method="_on_botao_sair_pressed"]
+[connection signal="pressed" from="painelMenu/botaoFechar" to="." method="_on_botao_fechar_pressed"]
+[connection signal="pressed" from="botaoMenu" to="." method="_on_botao_menu_pressed"]

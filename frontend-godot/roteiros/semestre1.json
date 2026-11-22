@@ -1,0 +1,61 @@
+{
+  "diálogo 01": {
+	"tipo": "DIALOGO",
+	"character": "joao",
+	"expression": "normal",
+	"text": "Quer conhecer a universidade comigo?",
+	"choices": [
+	  {
+		"text": "Sim, adoraria!",
+		"next": "dialogo_05",
+		"efeitos": {
+		  "sanidade": 5,
+		  "tempo": -2,
+		  "felicidade": 10
+		}
+	  },
+	  {
+		"text": "Talvez depois, preciso trabalhar.",
+		"next": "dialogo_06",
+		"expression": "triste",
+		"efeitos": {
+		  "dinheiro": 50,
+		  "sanidade": -5
+		}
+	  }
+	]
+  },
+  "dialogo_02": {
+	"tipo": "DIALOGO",
+	"character": "joao",
+	"expression": "feliz",
+	"text": "Ótimo! Vamos pegar o ônibus agora.",
+	"next": "evento_carta_01"
+  },
+  "evento_cartas_01": {
+	"tipo": "CARTA",
+	"text": "Fim de semana chegou! O que você vai fazer?",
+	"choices": [
+	  {
+		"titulo": "Estudar para a Prova",
+		"text": "Passar o sábado revisando matéria. (+15 Notas, -10 Sanidade, -4 Tempo)",
+		"next": "dialogo_pos_carta",
+		"efeitos": {
+		  "notas": 15,
+		  "sanidade": -10,
+		  "tempo": -4
+		}
+	  },
+	  {
+		"titulo": "Sair com os Amigos",
+		"text": "Ir à praia em Ponta Negra relaxar. (+20 Sanidade, -50 Dinheiro, -3 Tempo)",
+		"next": "dialogo_pos_carta",
+		"efeitos": {
+		  "sanidade": 20,
+		  "dinheiro": -50,
+		  "tempo": -3
+		}
+	  }
+	]
+  }
+}

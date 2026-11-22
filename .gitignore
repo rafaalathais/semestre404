@@ -42,3 +42,8 @@ backend-spring/src/main/resources/application-local.properties
 # Godot 4+ specific ignores
 .godot/
 /android/
+
+# Arquivos temporarios de sitema
+*.tmp
+.DB_STORE
+Thumbs.db

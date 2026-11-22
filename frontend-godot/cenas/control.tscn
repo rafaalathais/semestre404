@@ -2,9 +2,6 @@
 
 [ext_resource type="Script" uid="uid://c8w31sgr2ndac" path="res://scripts/control.gd" id="1_o08tv"]
 [ext_resource type="Texture2D" uid="uid://hoftiwoofg2j" path="res://assets/cenarios/IMG-20261119-WA0047.jpg" id="2_oygwv"]
-[ext_resource type="Texture2D" uid="uid://bqruoqffwxqhu" path="res://assets/cenarios/8.png" id="3_oygwv"]
-
-[sub_resource type="Theme" id="Theme_eyc6k"]
 
 [node name="Control" type="Control" unique_id=101534818]
 layout_mode = 3
@@ -26,33 +23,10 @@ texture = ExtResource("2_oygwv")
 
 [node name="HTTPRequest" type="HTTPRequest" parent="." unique_id=373350547]
 
-[node name="Menuprincipal" type="Control" parent="." unique_id=429260888]
-anchors_preset = 0
-offset_right = 40.0
-offset_bottom = 40.0
-
-[node name="fundomenu" type="TextureRect" parent="Menuprincipal" unique_id=754554358]
+[node name="Button" type="Button" parent="." unique_id=1950551013]
 layout_mode = 0
-offset_left = 179.00003
-offset_top = 47.0
-offset_right = 3679.0
-offset_bottom = 2547.0
-scale = Vector2(0.23930027, 0.21883866)
-theme = SubResource("Theme_eyc6k")
-texture = ExtResource("3_oygwv")
-
-[node name="Button" type="Button" parent="Menuprincipal" unique_id=1950551013]
-layout_mode = 0
-offset_left = 508.0
-offset_top = 95.0
-offset_right = 728.0
-offset_bottom = 295.0
+offset_left = 927.0
+offset_top = 16.0
+offset_right = 1147.0
+offset_bottom = 216.0
 text = "Salvar no banco"
-
-[node name="sidebar" type="PanelContainer" parent="Menuprincipal" unique_id=1833296400]
-custom_minimum_size = Vector2(220, 200)
-layout_mode = 0
-offset_left = 938.0
-offset_top = 4.0
-offset_right = 1158.0
-offset_bottom = 204.0
