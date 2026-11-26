@@ -16,9 +16,3 @@ func _ready() -> void:
 func _on_personagem_falou(nome_personagem: String, expressao: String) -> void:
 	if personagens.has(nome_personagem):
 		personagens[nome_personagem].mudar_expressao(expressao)
-
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass

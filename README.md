@@ -43,7 +43,7 @@ Este projeto foi desenvolvido por:
     <td align="center">
       <a href="https://github.com/rafaalathais">
         <img src="https://github.com/rafaalathais.png" width="100px;" style="border-radius: 50%;"/><br>
-        <sub><b>Rafaela Thaís</b></sub>
+        <sub><b>Rafaela Thais</b></sub>
       </a><br>
       <sub>Desenvolvedor</sub>
     </td>

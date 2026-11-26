@@ -10,7 +10,7 @@ script = ExtResource("1_ivfso")
 
 [node name="Sprite2D" type="Sprite2D" parent="." unique_id=1130991739]
 position = Vector2(638, 359)
-scale = Vector2(0.7959801, 0.7942383)
+scale = Vector2(0.8010199, 0.80989045)
 texture = ExtResource("2_2cqq7")
 
 [node name="personagem2" parent="." unique_id=1235769947 instance=ExtResource("3_oofb5")]
@@ -27,3 +27,4 @@ offset_left = 31.0
 offset_top = 16.0
 offset_right = 31.0
 offset_bottom = 16.0
+scale = Vector2(1.0006945, 1)

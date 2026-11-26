@@ -55,6 +55,7 @@ func exibir_no(id: String) -> void:
 
 	# Avisa o cenário para trocar a imagem do personagem
 	personagem_falou.emit(char_id, expressao)
+	
 
 	limpar_escolhas()
 
@@ -82,8 +83,3 @@ func _ao_escolher(escolha: Dictionary) -> void:
 func limpar_escolhas() -> void:
 	for filho in container_escolhas.get_children():
 		filho.queue_free()
-
-
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass

@@ -1,5 +1,5 @@
 {
-  "diálogo 01": {
+	"dialogo_01": {
 	"tipo": "DIALOGO",
 	"character": "joao",
 	"expression": "normal",
@@ -7,7 +7,8 @@
 	"choices": [
 	  {
 		"text": "Sim, adoraria!",
-		"next": "dialogo_05",
+		"next": "dialogo_02",
+		"expression": "triste",
 		"efeitos": {
 		  "sanidade": 5,
 		  "tempo": -2,

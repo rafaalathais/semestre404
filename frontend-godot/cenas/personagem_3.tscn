@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://vegirs6x4kbn"]
+
+[ext_resource type="PackedScene" uid="uid://c6ii85p3fpi6e" path="res://cenas/personagem1.tscn" id="1_48s64"]
+[ext_resource type="Texture2D" uid="uid://cc504l648p3gr" path="res://assets/personagens/personagem3/personagem3_padrao.png" id="2_48s64"]
+[ext_resource type="Texture2D" uid="uid://du5hjl80og8j3" path="res://assets/personagens/personagem3/personagem3_falandobocaaberta.png" id="3_67x26"]
+[ext_resource type="Texture2D" uid="uid://cc7y0drw8jd2u" path="res://assets/personagens/personagem3/personagem3_brava.png" id="4_2n4yp"]
+[ext_resource type="Texture2D" uid="uid://c1r75w26a5av1" path="res://assets/personagens/personagem3/personagem3_triste.png" id="5_jfw15"]
+
+[node name="personagem2" unique_id=1235769947 instance=ExtResource("1_48s64")]
+scale = Vector2(0.99881715, 1)
+texture = ExtResource("2_48s64")
+expressoes = Dictionary[String, Texture2D]({
+"assustado": ExtResource("3_67x26"),
+"bravo": ExtResource("4_2n4yp"),
+"normal": ExtResource("2_48s64"),
+"triste": ExtResource("5_jfw15")
+})

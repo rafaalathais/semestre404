@@ -12,6 +12,3 @@ func mudar_expressao(nome_expressao: String) -> void:
 		self.texture = expressoes[nome_expressao]
 	else:
 		print('Expressão nao encontrada: ', nome_expressao)
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
-	pass
