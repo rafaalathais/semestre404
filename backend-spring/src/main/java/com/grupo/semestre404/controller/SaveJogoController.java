@@ -1,7 +1,7 @@
 package com.grupo.semestre404.controller;
 
-import com.grupo.semestre404.model.EstadoSave;
-import com.grupo.semestre404.repository.EstadoSaveRepository;
+import com.grupo.semestre404.model.SaveJogo;
+import com.grupo.semestre404.repository.SaveJogoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,21 +11,21 @@ import java.util.List;
 @RequestMapping("/estado-save")
 @CrossOrigin(origins = "*")
 
-public class EstadoSaveController {
+public class SaveJogoController {
 
         @Autowired
-        private final EstadoSaveRepository estadoSaveRepository;
-        public EstadoSaveController(EstadoSaveRepository estadoSaveRepository) {
+        private final SaveJogoRepository estadoSaveRepository;
+        public SaveJogoController(SaveJogoRepository estadoSaveRepository) {
             this.estadoSaveRepository = estadoSaveRepository;
         }
 
         @GetMapping
-        public List<EstadoSave> getAllEstados() {
+        public List<SaveJogo> getAllEstados() {
             return estadoSaveRepository.findAll();
         }
 
         @PostMapping("/salvar")
-        public EstadoSave createEstado(@RequestBody EstadoSave estado) {
+        public SaveJogo createEstado(@RequestBody SaveJogo estado) {
             return estadoSaveRepository.save(estado);
         }
     
