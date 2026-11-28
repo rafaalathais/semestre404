@@ -6,6 +6,7 @@
 	"text": "Quer conhecer a universidade comigo?",
 	"choices": [
 	  {
+		"code": "dialogo_01_opcao_01",
 		"text": "Sim, adoraria!",
 		"next": "dialogo_02",
 		"expression": "triste",
@@ -16,6 +17,7 @@
 		}
 	  },
 	  {
+		"code": "dialogo_01_opcao_02",
 		"text": "Talvez depois, preciso trabalhar.",
 		"next": "dialogo_06",
 		"expression": "triste",
